@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculadora
+        </title>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <center>
+           <input type="text" id="visor" class="visor">
+        
+            <br>
+            <br>
+
+            <input type="submit" class="botao" value="1" onclick="adicionar(1);">
+            <input type="submit" class="botao" value="2" onclick="adicionar(2);">
+            <input type="submit" class="botao" value="3" onclick="adicionar(3);">
+            <input type="submit" class="botao operador" value="/">
+            
+            <br>
+            <br>
+
+            <input type="submit" class="botao" value="4" onclick="adicionar(4);">
+            <input type="submit" class="botao" value="5" onclick="adicionar(5);">
+            <input type="submit" class="botao" value="6" onclick="adicionar(6);">
+            <input type="submit" class="botao operador" value="*">
+            
+            <br>
+            <br>
+            
+            <input type="submit" class="botao" value="7" onclick="adicionar(7);">
+            <input type="submit" class="botao" value="8" onclick="adicionar(8);">
+            <input type="submit" class="botao" value="9" onclick="adicionar(9);">
+            <input type="submit" class="botao operador" value="-">
+
+            <br>
+            <br>
+
+            <input type="submit" class="botao" value="C" onclick="limpar();">
+            <input type="submit" class="botao" value="0" onclick="adicionar(0);">
+            <button class="botao">=</button>
+            <input type="submit" class="botao operador" value="+">
+        </center>
+
+        <script src="js/calculadora.js"></script>
+    </body>
+</html>
